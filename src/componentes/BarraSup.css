@@ -1,0 +1,37 @@
+.ctn-barraSup{
+  background-color: black;
+  height: 8vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  font-size: 2.7em;
+}
+
+.logo-barraSup{
+  margin-right: 2%;
+}
+
+.links-barraSup a{
+  color: #EAE320;
+  margin-left: 60%;
+  font-size: 0.6em;
+}
+
+.links-barraSup a:hover{
+  color: orange;
+}
+
+.status-barraSup{
+  width: 10%;
+  font-size: 0.3em;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.status-barraSup p{
+  text-decoration: underline yellowgreen;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,22 @@
+.ctn-paginacion {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.ctn-paginacion button {
+  color: black;
+  float: left;
+  padding: 15px 32px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.ctn-paginacion button:hover:not(.active) {
+  background-color: #ddd;
+}

@@ -1,0 +1,150 @@
+.ctn-detalles h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 5px;
+}
+
+.ctn-principalPelicula{
+  background: url('../images/fondoPeli2.jpg');
+}
+
+.ctn-listaPelicula{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  padding-bottom: 40px;
+  backdrop-filter: blur(8px);
+}
+
+.ctn-pelicula{
+  border: 4px solid black;
+  width: 300px;
+  height: 400px;
+  margin: 20px 0 0 7%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ctn-pelicula h2{
+  padding-bottom: 8px;
+}
+
+.ctn-pelicula h5{
+  font-style: italic;
+}
+
+.posterImg{
+  height: 80%;
+  width: 100%;
+}
+
+/**********Reproductor de pelicula**************/
+/*Boton para regresar*/
+.btn-tabPelicula {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 10%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-tabPelicula:not(:disabled):hover,
+.btn-tabPelicula:not(:disabled):focus {
+  outline: 0;
+  background: #EAE320;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.btn-tabPelicula:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+.ctn-tabPelicula{
+  background: url('../images/fondoPeli2.jpg');
+  padding-bottom: 20px;
+}
+
+
+.ctn-tabPeliSuperior{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-color: black;
+}
+
+.reproductorPeli{
+  width: 50%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctn-detalles{
+  background-color: rgb(238, 238, 118);
+  width: 45%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.sinopsis{
+  margin: 3% 5% 0 5%;
+  height: 40%;
+  font-style: italic;
+}
+
+/*Criticas*/
+.ctn-critica{
+  display: flex;
+  width: 100%;
+  height: 45%;
+  justify-content: space-around;
+  bottom: 0px;
+}
+
+.critica{
+  background-color: white;
+  width: 45%;
+  margin: 2% 2%;
+  border-radius: 15px;
+  text-align: center;
+  -webkit-box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96); 
+  box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96);
+}
+
+.crit-mensaje{
+  font-size: 1.05em;
+  height: 55%;
+  margin: 4% 2% 0 2%;
+}
+
+.crit-calif{
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.crit-usuario{
+  font-weight: bold;
+}
+
+
+

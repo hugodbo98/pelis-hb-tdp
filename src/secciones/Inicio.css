@@ -1,0 +1,123 @@
+.ctn-inicio{
+  height: 92vh;
+  background-image: url("../images/inicioBackground2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.ctn-inicioSup{
+  background-color: black;
+  height: 8vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  font-size: 2.7em;
+}
+
+.paraLogInOut{
+  height: 50%;
+  width: 450px;
+  background-color: rgba(255,255,255,0.13);
+  border-radius: 20px;
+  backdrop-filter: blur(18px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+  font-size: 1.4em;
+  margin-left: 15%;
+}
+
+.paraLogInOut input{
+  display: block;
+  height: 50px;
+  width: 95%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+
+::placeholder{
+  color: #e5e5e5;
+}
+
+.paraLogInOut button{
+  margin-top: 50px;
+  width: 100%;
+  background: #EAE320;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paraLogInOut button:hover{
+  background-color: #ffffffe7;
+}
+
+.paraLogInOut h2{
+  text-align: center;
+}
+
+.paraLogInOut h4{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.paraLogInOut h5{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.ctn-derInicio{
+  color: white;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.derSup{
+  height: 60%;
+  font-size: 1.9em;
+  margin-top: 20%;
+}
+
+.derSup p{
+  padding-top: 20%;
+}
+
+
+/*Icono flecha derecha*/
+.inicioFlecha{
+  height: 18%;
+  width: 20%;
+  margin-top: 5%;
+}
+
+.inicioFlecha:hover{
+  margin-left: 2%;
+}
+
+.derInf p{
+  font-size: 1.2em;
+  margin-bottom: 3%;
+}
+
+.muestraPelisPorPag{
+  padding: 2% 5%;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}

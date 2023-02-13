@@ -1,0 +1,98 @@
+.ctn-conectate{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Boton para conectar a cuenta */
+.btn-comentarioConect{
+  font-size: larger;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96); 
+  box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96);
+}
+
+.ctn-comentar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.calificacionPeli{
+  padding: 20px;
+}
+
+.ctn-comentarios{
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  height: 150px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96); 
+  box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.96);
+  align-items: center;
+  justify-content: start;
+}
+
+.mensaje-coment{
+  height: 95%;
+  width: 70%;
+  margin-left: 10%;
+  font-weight: 600;
+}
+
+.comUsu{
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.comCali{
+  margin-bottom: 20px;
+}
+
+.comCali a{
+  font-size: 1.1em;
+  background-color: rgb(238, 238, 118);
+  padding: 5px;
+}
+
+.comMens a{
+  font-size: 1.1em;
+  background-color: rgb(238, 238, 118);
+  padding: 5px;
+}
+
+.eliminar-coment{
+  background-color: orange;
+  border-bottom: 1px solid orangered;
+  border-right: 2px solid orangered;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 60%;
+  width: 10%;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.38); 
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.38);
+}
+
+.eliminar-coment:hover{
+  color: white;
+  background-color: rgb(190, 4, 4);
+  border-bottom: 1px solid rgb(138, 0, 0);
+  border-right: 2px solid rgb(138, 0, 0);
+  font-weight: bolder;
+}
