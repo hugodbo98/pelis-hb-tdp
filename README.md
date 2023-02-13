@@ -10,15 +10,11 @@ Pasos a seguir para la preparación y ejecución correcta de la web:
 1. Clonar (o descargar) el repositorio.
 2. Instalar (o tener instalado) Node Js
 3. Utilizando Visual Studio Code, buscar y seleccionar la carpeta: ```pelis-tdptest```
-4. Ejecutar los siguientes comandos en la consola: 
-```npm install axios```
-```npm install uuid``` 
-```npm install react-router-dom```
-6. Utilizar el comando:
-```npm start```
+4. Ejecutar el siguiente comando en la consola: ```npm install``` (Puede tardar un par de minutos)
+6. Iniciar la aplicacion con: ```npm start```
 
-Corre la aplicación en modo desarrollador
-Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
+(Corre la aplicación en modo desarrollador
+Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.)
 
 ## Desplazarse en la aplicacion web ➡️ 
 El sitio cuenta con tres diferentes pantallas
@@ -46,6 +42,8 @@ Esta sección muestra inicialmente al reproductor de películas, la descripción
 | http://movies.z4.tdplab.com/api/pelicula/                                      | Devuelve la lista total de las peliculas, título y etiquetas |
 | http://movies.z4.tdplab.com/api/comentario/                                      | Devuelve la lista total de comentarios |
 | http://movies.z4.tdplab.com/api/critica/                                      | Devuelve la lista total de críticas |
+
+>Los usuarios y otros elementos (imagenes y descripcion de peliculas) se encuentra en src/datos/data.jsx
 
 ## Usuarios👥
 > user: candidatoTAHyfz
