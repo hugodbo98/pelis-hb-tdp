@@ -10,8 +10,8 @@ Pasos a seguir para la preparación y ejecución correcta de la web:
 1. Clonar (o descargar) el repositorio.
 2. Instalar (o tener instalado) Node Js
 3. Utilizando Visual Studio Code, buscar y seleccionar la carpeta: ```pelis-tdptest```
-4. Ejecutar el siguiente comando en la consola: ```npm install``` (Puede tardar un par de minutos)
-6. Iniciar la aplicacion con: ```npm start```
+4. Ejecutar el siguiente comando en la consola de VS Code: ```npm install``` (Puede tardar un par de minutos)
+6. Iniciar la aplicacion ingresando el comando: ```npm start```
 
 (Corre la aplicación en modo desarrollador
 Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.)
