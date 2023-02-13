@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# PelisHB 🎬 
+Prueba de front-end para TDP S.A 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Proyecto bootstrapped con [Create React App](https://github.com/facebook/create-react-app).**
 
-## Available Scripts
+## Ejecución🔧 
+> Trabajar en Visual Studio Code
 
-In the project directory, you can run:
+Pasos a seguir para la preparación y ejecución correcta de la web:
+1. Clonar (o descargar) el repositorio.
+2. Instalar (o tener instalado) Node Js
+3. Utilizando Visual Studio Code, buscar y seleccionar la carpeta: ```pelis-tdptest```
+4. Ejecutar los siguientes comandos en la consola: 
+```npm install axios```
+```npm install uuid``` 
+```npm install react-router-dom```
+6. Utilizar el comando:
+```npm start```
 
-### `npm start`
+Corre la aplicación en modo desarrollador
+Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Desplazarse en la aplicacion web ➡️ 
+El sitio cuenta con tres diferentes pantallas
+1. Inicio
+2. Catálogo de películas
+3. Reproducción de película
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Inicio**
+Cuenta con tres elementos:
+1. Contenedor de registro de cuenta
+2. Boton de acceso al catálogo
+3. Selector del muestreo del catálogo 
 
-### `npm test`
+**Catalogo de peliculas**
+Incluye la biblioteca de peliculas del sitio. Estas pueden ser presionadas para acceder a la reproducción.
+El desplazamiento entre páginas está controlado por una fila superior de elementos numéricos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Reproducción de peliculas**
+Esta sección muestra inicialmente al reproductor de películas, la descripción y las críticas. En la parte inferior se cuenta con una sección de comentarios. La capacidad de publicar y borrar está habilitada para usuarios conectados.
 
-### `npm run build`
+## Endpoints⚙️ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Endpoint                                                          | Descripción |
+|---------------------------------------------------------------------|-------------|
+| http://movies.z4.tdplab.com/api/pelicula/                                      | Devuelve la lista total de las peliculas, título y etiquetas |
+| http://movies.z4.tdplab.com/api/comentario/                                      | Devuelve la lista total de comentarios |
+| http://movies.z4.tdplab.com/api/critica/                                      | Devuelve la lista total de críticas |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usuarios👥
+> user: candidatoTAHyfz
+> password: passhvRYab
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> user: candidatoLfrfZq
+> password: passymrVXS
 
-### `npm run eject`
+> user: candidatoASMmV
+> password: passstrCGU
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
