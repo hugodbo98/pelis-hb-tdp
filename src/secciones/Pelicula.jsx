@@ -80,7 +80,9 @@ export default function Pelicula() {
         <div className='ctn-tabPelicula' href='#'>
           <button onClick={()=>manejarTab(1)} className='btn-tabPelicula'>Volver</button>
           <div className='ctn-tabPeliSuperior'>
-            <div className='reproductorPeli'>*Reproduccion de pelicula*</div>
+            <div className='reproductorPeli'>
+              <img src={require('../images/botonPlay2.png')} className='img-botonPlay'/>
+            </div>
             <div className='ctn-detalles'>
               <h1>{peliSeleccionada[0].titulo}</h1>
               <p className='sinopsis'>{datosMovie[idPelicula-1].descripcion}</p>
