@@ -91,12 +91,18 @@
 }
 
 .reproductorPeli{
+  background: url("../images/reproductorFondo.jpg");
   width: 50%;
   height: 90%;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.img-botonPlay{
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
 }
 
 .ctn-detalles{
@@ -145,6 +151,8 @@
 .crit-usuario{
   font-weight: bold;
 }
+
+
 
 
 
