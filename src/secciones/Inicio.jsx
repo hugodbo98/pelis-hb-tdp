@@ -22,6 +22,7 @@ export default function ConectarCuenta() {
     window.localStorage.removeItem("estaConectado");
     window.localStorage.removeItem("nombreOnline");
     window.localStorage.removeItem("apellidoOnline");
+    window.location.reload();
   }
 
   if(sessionStorage.getItem("pelisPorPag") == null){
@@ -64,9 +65,9 @@ export default function ConectarCuenta() {
             <h1>Usuario conectado: </h1>
             <h4>{window.localStorage.getItem("nombreOnline")}</h4>
             <h4>{window.localStorage.getItem("apellidoOnline")}</h4>
-            <Link to='/peliculas'>
-              <button onClick={accionSalida}>Salir de la cuenta</button>
-            </Link>
+            
+            <button onClick={accionSalida}>Salir de la cuenta</button>
+            
           </div>
         )}
         <div className='ctn-derInicio'>
