@@ -23,17 +23,21 @@ export default function FormularioComentario({onSubmit, calif}) {
     onSubmit(comentNuevo);
   }
 
+  function resetForm(){
+    document.getElementById('formComent').reset();
+  }
+
   return (
-    <form onSubmit={manejarEnvio} className='form-Comentario'>
+    <form onSubmit={manejarEnvio} id='formComent' className='form-Comentario'>
       <input 
         className='input-Comentario'
         type="text" 
         placeholder='Escribe un comentario'
         name='mensaje'
         onChange={manejarCambio}
-        maxlength="70"
+        maxLength="70"
       />
-      <button className='btn-Comentario'>
+      <button className='btn-Comentario' onClick={resetForm}>
         Enviar
       </button>
     </form>
