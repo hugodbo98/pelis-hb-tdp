@@ -13,7 +13,6 @@ export default function SeccionComentario({comentarioSeleccionado}) {
       const comentActualizados= [com, ...coment];
       setComent(comentActualizados);
     }
-    console.log(coment);
   }
   const eliminarComent= id => {
     const comentActualizados= coment.filter(coment => coment.id !== id);
