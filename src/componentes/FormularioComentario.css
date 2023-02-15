@@ -10,6 +10,9 @@
   height: 100%;
   width: 70%;
   border: 5px solid black;
+  font-size: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  background-color: azure;
 }
 
 .btn-Comentario {
